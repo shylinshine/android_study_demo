@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical" >
+
+
+    <TextView
+            android:text="用户名"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" android:id="@+id/textView" android:textSize="30sp"
+            android:textColor="#E91E63"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:ems="10"
+            android:id="@+id/editTextTextPersonName3"/>
+    <TextView
+            android:text="爱好"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" android:id="@+id/textView2" android:textSize="24sp"
+            android:textColor="#2196F3"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="hobby"
+            android:ems="10"
+            android:id="@+id/editTextTextPersonName2"/>
+    <Button
+            android:text="添加"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/button5"/>
+</LinearLayout>
+
+
+
+
+

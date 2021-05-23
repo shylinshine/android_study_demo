@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical" >
+
+
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minLines="2"
+
+                android:ems="10"
+                android:id="@+id/writeText" android:hint="输入你想输入的内容" android:textSize="30sp"
+                android:textColor="#E91E63"/>
+        <Button
+                android:text="写入"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="write"
+                android:textColor="#E91E63"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minLines="2"
+            android:enabled="false"
+            android:id="@+id/readText" android:hint="显示读取的内容" android:textSize="30sp"
+            android:textColor="#E91E63"/>
+
+    <Button
+            android:text="读取"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="read"
+            android:textColor="#E91E63"/>
+
+
+    </LinearLayout>
+
+
+
+
+

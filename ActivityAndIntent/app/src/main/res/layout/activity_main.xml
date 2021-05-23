@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical" >
+
+
+
+
+
+        <Button
+                android:text="Go_TO_secondActivity"
+                android:layout_width="wrap_content"
+
+                android:onClick="goToSecondActivity"
+                android:layout_height="wrap_content" android:id="@+id/mbtn" android:textColor="#FF5722"/>
+
+    <Button
+            android:text="Go_TO_Third_Activity"
+            android:layout_width="wrap_content"
+
+            android:onClick="goToThirdActivity"
+            android:layout_height="wrap_content" android:textColor="#FF5722"/>
+
+    <Button
+            android:text="Go_TO_Fourth_Activity"
+            android:layout_width="wrap_content"
+
+            android:onClick="goToFourthActivity"
+            android:layout_height="wrap_content" android:textColor="#FF5722"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <Button
+                android:text="浏览网页"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/button"/>
+        <Button
+                android:text="打开拨号窗口"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/button2"/>
+        <Button
+                android:text="直接拨号"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/button3"/>
+        <Button
+                android:text="发送短信"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/button4"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+

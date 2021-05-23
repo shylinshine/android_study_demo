@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:tools="http://schemas.android.com/tools"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical" >
+
+
+        <Button
+                android:id="@+id/btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="退出对话框"
+                android:onClick="exit"
+
+        />
+        <Button
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="单选对话框"
+                android:onClick="singleChoice"
+
+        />
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                        android:text="姓名："
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp" android:id="@+id/textView3" android:textSize="30sp"/>
+                <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:text="Name"
+                        android:ems="10"
+                        android:id="@+id/editTextTextPersonName3"/>
+                <TextView
+                        android:text="密码"
+                        android:layout_width="match_parent"
+                        android:layout_height="69dp" android:id="@+id/textView4" android:textSize="30sp"
+                        android:textColor="#E91E63"/>
+                <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPassword"
+                        android:ems="10"
+                        android:id="@+id/editTextTextPassword" android:hint="请输入密码"/>
+                <TextView
+                        android:text="学号"
+                        android:layout_width="match_parent"
+                        android:layout_height="51dp" android:id="@+id/textView5" android:lineSpacingExtra="8sp"
+                        android:textSize="30sp" android:textColor="#9C27B0"/>
+                <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberSigned"
+                        android:ems="10"
+                        android:id="@+id/editTextNumberSigned" android:hint="请输入学号"/>
+        </LinearLayout>
+
+</LinearLayout>
+
+

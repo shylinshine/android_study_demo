@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical" >
+
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="66dp"
+                        android:inputType="textPersonName"
+                        android:text="绑定到标签"
+                        android:ems="10"
+                        android:id="@+id/testText" android:hint="绑定到标签" android:textSize="30sp"
+                        android:textColor="#E91E63"/>
+                <Button
+                        android:text="内部类"
+                        android:layout_width="match_parent"
+                        android:layout_height="94dp"
+                        android:id="@+id/red" android:textColor="#E91E63"/>
+                <Button
+                        android:text="外部类"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/green"
+                        android:textColor="#9C27B0"/>
+                <Button
+                        android:text="匿名内部类"
+                        android:layout_width="match_parent"
+                        android:layout_height="94dp"
+                        android:id="@+id/blue"
+                        android:textColor="#2196F3"/>
+                <Button
+                        android:text="Actiyity"
+                        android:layout_width="match_parent"
+                        android:layout_height="94dp"
+                        android:id="@+id/italic"/>
+                <Button
+                        android:text="绑定到标签"
+                        android:layout_width="match_parent"
+                        android:onClick="clickEventHandler"
+                        android:layout_height="63dp" android:id="@+id/mbtn" android:textColor="#FF5722"/>
+
+
+
+
+        </LinearLayout>
+
+
+</LinearLayout>
+
+

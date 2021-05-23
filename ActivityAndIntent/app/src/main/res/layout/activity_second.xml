@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical" >
+
+
+    <TextView
+            android:text="计算你的标准体重"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" android:id="@+id/textView" android:textSize="30sp"
+            android:textColor="#E91E63"/>
+    <TextView
+            android:text="性别："
+            android:layout_width="match_parent"
+            android:layout_height="40dp" android:id="@+id/textView2" android:textSize="24sp"/>
+    <RadioButton
+            android:text="男"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/radioButton4"/>
+    <RadioButton
+            android:text="女"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/radioButton5"/>
+    <TextView
+            android:text="身高"
+            android:layout_width="match_parent"
+            android:layout_height="56dp" android:id="@+id/textView3" android:textSize="30sp"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="请输入你的身搞"
+            android:ems="10"
+            android:id="@+id/editTextTextPersonName"/>
+    <Button
+            android:text="计算"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/button5"/>
+</LinearLayout>
+
+
+
+
+
